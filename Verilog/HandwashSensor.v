@@ -36,6 +36,7 @@ reg [7:0] rightHandGainHeld;
 //
 //   You can pass an equation to the Calculate automation. Therefore, you could pass in an equation such as
 //   leftHandDistanceHeld * leftHandGainHeld >> 7
+//Calculate doc: https://icii.notion.site/Calculate-966443024d5d4d2db38f8db8b51f4424 (TODO: shorten url later)
 wire [15:0] leftHand;
 
 //5) Similary, we want to do the same for the right.
