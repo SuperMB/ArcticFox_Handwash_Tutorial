@@ -26,6 +26,7 @@ The tutorial contains the following steps in the following files:
 - Verilog/HandwashSensorTest.v 
   - Step 6
 
+You can run the result in a Verilog simulator. We have included the folder IpCores for simulating in Vivado. 
 
 ## View Solution
 *Before viewing the solution, make sure you've complete the **Setup*** 
