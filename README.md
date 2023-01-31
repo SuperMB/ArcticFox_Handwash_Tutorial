@@ -10,7 +10,7 @@ This repo is a tutorial that implements an example handwash sensor. The sensor d
 
 ## Setup
 To setup the tutorial, follows these steps: 
-1) Fork this repo
+1) Fork this repo, **make sure to uncheck main branch only** 
 2) Launch the repo in a codespace
 3) Activate Arctic Fox in the left panel 
 
