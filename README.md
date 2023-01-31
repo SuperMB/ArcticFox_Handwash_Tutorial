@@ -1,8 +1,11 @@
-# Handwash - Arctic Fox Blog Tutorial
+# Handwash - Arctic Fox Blog Solution
 
 <p align="center">
     <img src="https://icii.io/wp-content/uploads/2022/09/New-Arctic-Fox-Logo.Blue_.For-Animation.WithBehindForGaps-1.svg" alt="Arctic Fox Logo" style="width:300px;"/>
 </p>
+
+## **This branch is the solution**
+
 This repo is a tutorial that implements an example handwash sensor. The sensor detects when to run water if either the left or right hand are within the appropriate distance. In this tutorial you will get an introduction to creating a custom automation and using the Calculate automation. 
 <br>
 <br>
@@ -11,8 +14,8 @@ This repo is a tutorial that implements an example handwash sensor. The sensor d
 ## Setup
 To setup the tutorial, follows these steps: 
 1) Fork this repo, **make sure to uncheck main branch only** 
-2) Launch the repo in a codespace
-3) Activate Arctic Fox in the left panel 
+2) Launch the repo in a codespace, wait for the codespace to finish building and extensions finish installing
+3) Click the Arctic Fox silhouette on the left, click Activate Arctic Fox on the bottom of the Arctic Fox panel, and enter your Arctic Fox email and password, press Activate (enter not yet supported...) 
 
 ## Steps
 The tutorial contains the following steps in the following files: 
