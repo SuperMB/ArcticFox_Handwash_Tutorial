@@ -4,8 +4,6 @@
     <img src="https://icii.io/wp-content/uploads/2022/09/New-Arctic-Fox-Logo.Blue_.For-Animation.WithBehindForGaps-1.svg" alt="Arctic Fox Logo" style="width:300px;"/>
 </p>
 
-## **This branch is the solution**
-
 This repo is a tutorial that implements an example handwash sensor. The sensor detects when to run water if either the left or right hand are within the appropriate distance. In this tutorial you will get an introduction to creating a custom automation and using the Calculate automation. 
 <br>
 <br>
