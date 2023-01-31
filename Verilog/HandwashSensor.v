@@ -1,9 +1,11 @@
 module HandwashSensor(
 
     //1a) Add a clock automation, since the sensor doesn't need to be fast, we suggest a 10 MHz clock 
+    /*[Clock 10 MHz]*/
     input clk,
 
     //1b) Add a reset automation
+    /*[Reset]*/
     input reset,
 
     input acceptLeftHandDistance,
@@ -24,10 +26,10 @@ module HandwashSensor(
 //2) For the next 4 regs, leftHandDistanceHeld, leftHandGainHeld, rightHandDistanceHeld, and rightHandGainHeld,
 //   add a HoldWhenAccept automation with no items. We are going to make a custom automation! Go to the 
 //   Automations > HoldWhenAccept.cs for Step 3). 
-reg [15:0] leftHandDistanceHeld;
-reg [7:0] leftHandGainHeld;
-reg [15:0] rightHandDistanceHeld;
-reg [7:0] rightHandGainHeld;
+/*[HoldWhenAccept]*/ reg [15:0] leftHandDistanceHeld;
+/*[HoldWhenAccept]*/ reg [7:0] leftHandGainHeld;
+/*[HoldWhenAccept]*/ reg [15:0] rightHandDistanceHeld;
+/*[HoldWhenAccept]*/ reg [7:0] rightHandGainHeld;
 
 //4) We need to calculate the distance of the left and right hands. Calculate the distance by multiplying
 //   the left hand's distance by it's gain, and shift the result right by 7. In the example, we assume
@@ -36,9 +38,11 @@ reg [7:0] rightHandGainHeld;
 //
 //   You can pass an equation to the Calculate automation. Therefore, you could pass in an equation such as
 //   leftHandDistanceHeld * leftHandGainHeld >> 7
+/*[Calculate leftHandDistanceHeld * leftHandGainHeld >> 7]*/
 wire [15:0] leftHand;
 
 //5) Similary, we want to do the same for the right.
+/*[Calculate rightHandDistanceHeld * rightHandGainHeld >> 7]*/
 wire [15:0] rightHand;
 
 parameter threshold = 1500;

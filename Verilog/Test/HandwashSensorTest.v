@@ -1,6 +1,7 @@
 module HandwashTest;
 
 //6) Instantiate the handwash sensor with the TestModule automation.  
+/*[TestModule Handwash]*/
 
 
 //We've written the test bench for you, look at it in simulation to see the 

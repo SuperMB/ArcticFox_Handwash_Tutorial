@@ -1,1 +1,10 @@
-{"VSCodeWorkspaceFile":"Handwash_ArcticFoxBlog.code-workspace","ArcticFoxVersion":"0.0.1","ProjectName":"Handwash_ArcticFoxBlog","GeneratedLineIdentifier":"<>","VerilogFolders":["Verilog"],"PathToVivadoProject":null}
+{
+    "VSCodeWorkspaceFile": "Handwash_ArcticFoxBlog_Solution.code-workspace",
+    "ArcticFoxVersion": "0.0.1",
+    "ProjectName": "Handwash_ArcticFoxBlog_Solution",
+    "GeneratedLineIdentifier": "<>",
+    "VerilogFolders": [
+        "Verilog"
+    ],
+    "PathToVivadoProject": null
+}
