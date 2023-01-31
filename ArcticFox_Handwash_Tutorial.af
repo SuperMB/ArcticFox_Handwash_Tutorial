@@ -1,0 +1,10 @@
+{
+    "VSCodeWorkspaceFile": "ArcticFox_Handwash_Tutorial.code-workspace",
+    "ArcticFoxVersion": "0.0.1",
+    "ProjectName": "ArcticFox_Handwash_Tutorial",
+    "GeneratedLineIdentifier": "<>",
+    "VerilogFolders": [
+        "Verilog"
+    ],
+    "PathToVivadoProject": null
+}
